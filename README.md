@@ -12,3 +12,16 @@ ERC-721 and ERC-1155 are both standards for creating and managing non-fungible t
     ERC-721 token can only be held by one address at a time.
 
 Use Cases: ERC-721 tokens are well-suited for representing one-of-a-kind or individually distinct assets, where uniqueness and scarcity are important, such as rare art pieces, unique collectibles, and unique in-game items.
+
+## ERC-1155:
+
+👉 Multi-Fungibility: ERC-1155 introduces the concept of "multi-fungible tokens," which means that a single smart contract can manage multiple types of tokens. 
+   These tokens can represent both fungible (identical) and non-fungible (unique) assets within the same contract.
+
+👉 Efficiency: ERC-1155 is designed to be more efficient in terms of gas costs and blockchain space. It allows multiple tokens to be bundled together in a single 
+   transaction, making it more cost-effective when creating, transferring, or managing multiple tokens at once.
+
+👉 Batch Transfers: Batch transfers are a key feature of ERC-1155, enabling the transfer of multiple tokens in a single transaction. This can save significantly 
+   on transaction fees compared to ERC-721, where each transfer would require a separate transaction.
+
+Use Cases: ERC-1155 tokens are suitable for applications where different types of assets need to be managed within a single contract. This includes scenarios like in-game items with varying rarity, attributes, and utility, as well as other use cases where efficient management of multiple token types is important.
