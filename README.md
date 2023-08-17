@@ -25,3 +25,10 @@ Use Cases: ERC-721 tokens are well-suited for representing one-of-a-kind or indi
    on transaction fees compared to ERC-721, where each transfer would require a separate transaction.
 
 Use Cases: ERC-1155 tokens are suitable for applications where different types of assets need to be managed within a single contract. This includes scenarios like in-game items with varying rarity, attributes, and utility, as well as other use cases where efficient management of multiple token types is important.
+
+## Summary:
+In summary, ERC-721 is designed for representing individual, unique NFTs, while ERC-1155 is more versatile, allowing a single contract to manage both fungible and non-fungible tokens efficiently. The choice between the two standards depends on the specific use case and requirements of the project.
+
+
+
+
